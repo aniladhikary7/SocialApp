@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HTF</string>
+    <string name="kidzoon">Kidzoon</string>
+    <string name="profile_name">Anil Adhikary</string>
+    <string name="lorem_ipsum">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content</string>
+    <string name="exit">Exit</string>
+    <string name="initial_setup_msg">Please connect to internet for initial setup</string>
+    <string name="conn_error">Issue connecting with service</string>
+    <string name="create_post">Create Post</string>
+    <string name="write_something_to_post">Write something to post!</string>
+</resources>

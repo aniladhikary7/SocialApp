@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".startup.SplashActivity">
+
+    <Button
+        android:id="@+id/exit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gradient_background"
+        android:text="@string/exit"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/initial_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/exit_btn"
+        android:gravity="center"
+        android:minHeight="@dimen/dimen_56dp"
+        android:text="@string/initial_setup_msg"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:text="@string/initial_setup_msg" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:theme="@style/ProgressBarWhite" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen_16dp"
+    tools:context=".sharePost.SharePostActivity">
+
+
+    <EditText
+        android:id="@+id/create_post_et"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_200dp"
+        android:background="@drawable/post_et_bg"
+        android:gravity="left"
+        android:hint="@string/write_something_to_post"
+        android:inputType="textMultiLine"
+        android:padding="@dimen/dimen_8dp" />
+</RelativeLayout>
+
